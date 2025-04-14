@@ -699,3 +699,10 @@ h6,
     color: #B0B9AE;
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
+
+
+
+/* fix spacing between email and phone*/
+/* .col-sm-6{
+    margin-right: 5px;
+} */
