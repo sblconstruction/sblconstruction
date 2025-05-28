@@ -13,6 +13,13 @@
     bottom: 30px;
     z-index: 99;
 }
+.logo-img {
+    height: 120px;     /* Adjust height as needed */
+    width: auto;      /* Keeps aspect ratio */
+    max-height: 135%;
+   
+}
+
 
 h1,
 h2,
