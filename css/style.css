@@ -63,12 +63,14 @@ h6,
 
 /*** Button ***/
 .btn {
+    
     transition: .5s;
     font-weight: 500;
 }
 
 .btn-primary,
 .btn-outline-primary:hover {
+   
     color: #FFFFFF;
 }
 
