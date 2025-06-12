@@ -60,6 +60,26 @@
         time: 2000
     });
 
+    // Add "+" after animation
+     const counters = document.querySelectorAll('.count');
+
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      let count = +counter.innerText;
+
+      const increment = Math.ceil(target / 100);
+
+      if (count < target) {
+        counter.innerText = count + increment;
+        setTimeout(updateCount, 20);
+      } else {
+        counter.innerText = target + "+";
+      }
+    };
+
+    updateCount();
+  });
 
     // Project carousel
     $(".project-carousel").owlCarousel({
